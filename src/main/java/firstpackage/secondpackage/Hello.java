@@ -18,6 +18,10 @@ public class Hello {
     }
 
     @RequestMapping("/iubitica")
-    public   String getStartedx() { return "Iubitelul o iubeste pe iubitica mult, mult, mult! :*"; }
+    public String getStartedx() { return "Iubitelul o iubeste pe iubitica mult, mult, mult! :*"; }
+
+
+    @RequestMapping("/iubitel")
+    public String getStartedIubitel() { return "Iubitica il iubeste pe iubitel mult, mult, mult! :*"; }
 
 }
