@@ -17,4 +17,7 @@ public class Hello {
         return "Greetings from Iubitel!";
     }
 
+    @RequestMapping("/iubitica")
+    public   String getStartedx() { return "Iubitelul o iubeste pe iubitica mult, mult, mult! :*"; }
+
 }
