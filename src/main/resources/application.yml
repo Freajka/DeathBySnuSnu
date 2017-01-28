@@ -1,0 +1,7 @@
+# TOMCAT settings
+spring:
+  profiles: dev
+server:
+  port: 8710
+  session:
+    timeout: 43200

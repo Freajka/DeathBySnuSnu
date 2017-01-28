@@ -23,33 +23,5 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <angular-ui-bootstrap.version>1.1.1</angular-ui-bootstrap.version>
     </properties>
-
-
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/webapp</directory>
-                <targetPath>webapp</targetPath>
-            </resource>
-        </resources>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.4</version>
-                <configuration>
-                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                    <warName>Spring4MVCAngularJSExample</warName>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
-            </plugin>
-        </plugins>
-        <finalName>Spring4MVCAngularJSExample</finalName>
-    </build>
 </project>
